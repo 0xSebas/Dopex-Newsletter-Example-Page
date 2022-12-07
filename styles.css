@@ -1,0 +1,168 @@
+* {
+  font-family: Nunito;
+  margin-bottom: 0;
+}
+
+html {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.super-bold {
+  font-weight: 1000;
+  font-size: 2rem;
+}
+
+#header-img {
+  width: 2.3rem;
+}
+
+.logo {
+  margin-right: 4rem;
+  color: white;
+}
+
+#submit {
+  background-color: #0000ff;
+  border: none;
+  font-weight: bold;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.app {
+  background-color: #0000ff;
+  border: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 4rem;
+}
+
+.app:hover {
+  background-color: #000090;
+}
+
+h4, h2 {
+  color: #7392ff;
+}
+
+.email-description {
+  margin-bottom: 5px;
+}
+
+#email {
+  margin-top: 0;
+}
+
+nav {
+  margin-top: 15px;
+  position: sticky;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #0466c8;
+  padding: 0 15px; 
+}
+
+#Investors {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(5, 1fr));
+  row-gap: 2.5rem;
+  text-align: center;
+  width: 100%;
+  background-color: #f4f6fd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 10rem;
+}
+
+#Investors img {
+  width: 7.5rem;
+  border-radius: 1rem;
+}
+
+.inv-h {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.atutes {
+  margin-left: 13rem;
+  margin-right: 13rem;
+}
+
+.atutes h4 {
+  margin-bottom: 0;
+}
+
+.atutes p {
+  margin-bottom: 0;
+}
+
+.atutes p:last-of-type {
+  margin-bottom: 50px;
+}
+
+#video {
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.description {
+  color: #0466c8;
+}
+
+span {
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+}
+
+#Tokens {
+  display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-left: 3rem;
+}
+
+section {
+  background-color: #f4f6fd;
+  border-radius: 10px;
+  text-align: left;
+  padding: 15px;
+  margin: 10px;
+}
+
+footer {
+  margin: 30px 0 0 -249px;
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.footer-img {
+  width: 2rem;
+}
+
+@media (max-width: 600px) {
+  html {
+    background-color: white;
+    color: black;
+  }
+
+  .logo {
+  color: black;
+}
+}
+
