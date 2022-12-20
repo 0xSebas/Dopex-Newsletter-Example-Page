@@ -26,6 +26,7 @@ html {
 .logo {
   margin-right: 4rem;
   color: white;
+  padding-top: 20px;
 }
 
 #submit {
@@ -41,7 +42,7 @@ html {
   background-color: #0000ff;
   border: none;
   font-weight: bold;
-  padding: 10px 15px;
+  padding: 15px 25px;
   color: white;
   border-radius: 5px;
   margin-left: 4rem;
@@ -72,28 +73,32 @@ nav {
   text-decoration: none;
   color: #0466c8;
   padding: 0 15px; 
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
 #Investors {
   justify-items: center;
   display: grid;
-  grid-template-columns: repeat(2, minmax(5, 1fr));
-  row-gap: 2.5rem;
+  grid-template-columns: repeat(2, minmax(2, 1fr));
+  row-gap: 1rem;
   text-align: center;
-  width: 100%;
+  width: 50%;
+  margin-left: 25%;
   background-color: #f4f6fd;
   border-radius: 10px;
   padding: 20px;
   margin-right: 10rem;
+  justify-content: center;
 }
 
 #Investors img {
-  width: 7.5rem;
+  width: 10rem;
   border-radius: 1rem;
 }
 
 .inv-h {
-  margin-top: 50px;
+  margin-top: 7.5rem;
   margin-bottom: 20px;
 }
 
@@ -122,6 +127,7 @@ nav {
 
 .description {
   color: #0466c8;
+  font-size: 1.25rem;
 }
 
 span {
@@ -132,27 +138,50 @@ span {
 
 #Tokens {
   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   margin-left: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+}
+
+.dpx-title {
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: #7392ff 1px solid;
+  padding-bottom: 20px;
+}
+
+.dual-token {
+  margin-top: 7.5rem;
+  margin-bottom: 20px;
+}
+
+.token-des {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
 
 section {
-  background-color: #f4f6fd;
   border-radius: 10px;
+  padding: 20px;
+  background-color: #f4f6fd;
   text-align: left;
-  padding: 15px;
-  margin: 10px;
+  margin-bottom: 20px;
+  width: 40%;
+  margin-left: 25%;
 }
 
 footer {
-  margin: 30px 0 0 -249px;
-  position: absolute;
+  text-align: center;
   width: 100%;
+  border-top: #000090 2px solid;
   padding-top: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-img {
   width: 2rem;
+  height: 2rem;
 }
 
 @media (max-width: 600px) {
@@ -164,5 +193,9 @@ footer {
   .logo {
   color: black;
 }
+}
+
+.inline {
+  display: inline-block;
 }
 
